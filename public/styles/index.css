@@ -1,0 +1,178 @@
+/* INICIO DA HEADER */
+
+header {
+    background-color: var(--header-color);
+    padding: 1% 0;
+}
+
+.cabecalho {
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho a {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a img {
+    max-width: 60%;
+}
+
+nav .links {
+    margin-left: 1.4rem;
+}
+
+nav .links a {
+    opacity: .8;
+    font-size: 1.15em;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 1.2rem;
+    color: var(--header-text-color);
+}
+
+nav .links a.selected {
+    opacity: 1;
+}
+
+nav .links a:hover {
+    transition: opacity 400ms;
+    opacity: 1;
+}
+
+.conexoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socials {
+    margin-right: 54px;
+    padding: 5px 0px 0px;
+}
+
+.socials a img {
+    width: 20px;
+    margin: 0 10px;
+}
+
+.button {
+    background-color: var(--header-text-color);
+    padding: 10px 25px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    transition: 400ms;
+    opacity: .9;
+}
+
+.button a {
+    color: var(--header-color);
+    font-weight: 700;
+}
+
+/* FIM DA HEADER */
+
+/* INICIO DA PRIMEIRA SESSÃO DO SITE */
+
+.section {
+    background-color: var(--main-background);
+}
+
+.content {
+    max-width: 980px;
+    margin: 0px auto;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content img {
+    width: 40%;
+}
+
+.content .textContent {
+    max-width: 500px;
+}
+
+.content .textContent h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 32px;
+    color: var(--main-text-color);
+}
+
+.content .textContent p {
+    font-size: 20px;
+    margin: 20px 0px 30px;
+    color: var(--main-text-color-red);
+}
+
+.content .textContent .button {
+    text-align: center;
+    background-color: var(--header-color);
+    padding: 15px 10px;
+    width: 50%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.content .textContent .button:hover {
+    transition: 400ms;
+    opacity: .8;
+}
+
+.content .textContent .button a {
+    color: var(--main-background);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* FIM DA PRIMEIRA SESSÃO DO SITE */
+
+/* INICIO DA SEGUNDA SESSÃO DO SITE */
+
+#red-box {
+    background-color: var(--main-background-red);
+}
+
+#red-text {
+    color: var(--main-background);
+}
+
+#red-p {
+    color: var(--main-background);
+}
+
+/* FIM DA SEGUNDA SESSÃO DO SITE*/
+
+/* INICIO DO FOOTER */
+
+footer {
+    margin: auto;
+    background-color: var(--main-text-color);
+    color: var(--main-background);
+    text-align: center;
+    padding: 20px 0px;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+/* FIM DO FOOTER */

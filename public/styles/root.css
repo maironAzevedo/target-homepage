@@ -1,0 +1,31 @@
+:root {
+    --header-text-color: #FFFFFF;
+    --header-color: #de2600;
+
+    --main-background: #fafafa;
+    --main-background-red: #c52100;
+
+    --main-text-color: #414141;
+    --main-text-color-red: #de2600;
+
+    --modal-button-color: #941900;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+    border: 0;
+
+    text-decoration: none;
+
+    box-sizing: border-box;
+
+    line-height: 1.3;
+
+
+}
